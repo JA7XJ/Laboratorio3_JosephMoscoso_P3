@@ -141,7 +141,7 @@ void juego(char*** t1,char*** t2,int size){
                 }
             }
             if(op1==2){
-
+                
             }
             if(op1==3){
             
@@ -195,7 +195,24 @@ void juego(char*** t1,char*** t2,int size){
 
             }
             if(op2==2){
+                cout<<endl<<"1)Ataque XY\n2)Ataque XZ\n3)Ataque YZ"<<endl;
+                cout<<"Ingrese la opcion correspondiente: ";
+                int o=0;
+                cin>>o;
+                while(o<0||o>3){
+                    cout<<"Error, ingrese correctamente: ";
+                    cin>>o;
+                    cout<<endl;
+                }
+                if(o==1){
+                
+                }
+                if(o==2){
 
+                }
+                if(o==3){
+
+                }
             }
             if(op2==3){
 
